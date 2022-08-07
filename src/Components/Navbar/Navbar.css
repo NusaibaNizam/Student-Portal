@@ -1,0 +1,39 @@
+.navbar {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.3) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+  }
+  
+  .navbar ul li a, .navbar ul li button, .navbar ul li h1{
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: #ff5e62;
+    font-size: min(2.5vw,18px);
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar ul li a:hover, .navbar ul li button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: #ff0207;
+  }
+  
+  .logout{
+    border: none;
+    outline: none;
+    background: transparent;
+  }
